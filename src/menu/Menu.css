@@ -1,0 +1,13 @@
+.Menu{
+    width: 100%;
+
+}
+
+.menu-item-container{
+    display: flex;
+
+}
+
+.menu-item {
+    margin: 1em;
+}
