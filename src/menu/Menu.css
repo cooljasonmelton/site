@@ -1,11 +1,9 @@
 .Menu{
     width: 100%;
-
 }
 
 .menu-item-container{
     display: flex;
-
 }
 
 .menu-item {
