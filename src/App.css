@@ -1,5 +1,76 @@
+.App {
+    flex-direction: column;
+
+}
+
 .cfb{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container{
+    position: relative;
+    width: 60%;
+    height: 500px;
+
+    border: 1px solid blue;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 2px blue;
+
+
+    /* background-image: url(); */
+    /* background-repeat: no-repeat, repeat; */
+    /* background-size: cover;  */
+    background-color: blue;
+
+    flex-wrap: wrap;
+}
+
+.square{
+    position: absolute;
+    z-index: 0;
+
+    width: calc(50% - 5px); 
+    height: calc(50% - 5px);
+
+    border: 1px solid blue;
+    border-radius: 0.5em;
+
+    background-color: aliceblue;
+
+    transition: 1s;
+}
+
+.projects{
+    top: 0;
+    left: 0;
+}
+
+.about{
+    top: 0;
+    left: 50%;
+}
+
+.contact{
+    top: 50%;
+    left: 0;
+}
+
+.blog{
+    top: 50%;
+    left: 50%;
+}
+
+.active{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.inactive{
+    opacity: 0;
+    visibility: hidden;
 }
