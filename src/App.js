@@ -11,7 +11,9 @@ const App = () => {
 
   const setClass = name => {
     const classArr = [name, 'square', 'cfb']
+    if (!active) return classArr.join(' ')
     if (active === name) classArr.push('active')
+    else classArr.push('inactive')
     return classArr.join(' ')
   }
 
