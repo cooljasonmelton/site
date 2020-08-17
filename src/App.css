@@ -1,5 +1,29 @@
+.App {
+    flex-direction: column;
+
+}
+
 .cfb{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container{
+    width: 80%;
+
+
+    background-image: url();
+    /* background-repeat: no-repeat, repeat; */
+    background-size: cover; 
+    background-color: #000000;
+
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 50%; 
+    min-width: min(100%, 25em);
+    height: 300px;
+    background-color: aliceblue;
 }

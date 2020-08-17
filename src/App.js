@@ -8,8 +8,17 @@ import Menu from './menu/Menu';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App cfb">
       <Menu/>
+
+      <div className="container cfb">
+        <div className="square">Projects</div>
+        <div className="square">Projects</div>
+        <div className="square">Projects</div>
+        <div className="square">Projects</div>
+
+
+      </div>
   
     </div>
   );
