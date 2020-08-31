@@ -26,10 +26,8 @@ const App = () => {
           <p>Projects</p> 
           <button className=""
             onClick={()=> setActive(
-              active === 'projects' ? 
-                '' 
-                  : 'projects'
-              )}>
+              active === 'projects' ? '' : 'projects'
+            )}>
             +/-
           </button>
         </div>
@@ -38,10 +36,9 @@ const App = () => {
           <p>About</p> 
           <button className=""
             onClick={()=> setActive(
-              active === 'about' ? 
-                '' 
-                  : 'about'
-              )}>            +/-
+              active === 'about' ? '' : 'about'
+            )}>            
+              +/-
           </button>
         </div>
 
@@ -49,10 +46,9 @@ const App = () => {
           <p>Contact</p> 
           <button className=""
             onClick={()=> setActive(
-              active === 'contact' ? 
-                '' 
-                  : 'contact'
-              )}>            +/-
+              active === 'contact' ? '' : 'contact'
+              )}>            
+            +/-
           </button>
         </div>
 
@@ -60,19 +56,12 @@ const App = () => {
           <p>Blog</p> 
           <button className=""
             onClick={()=> setActive(
-              active === 'blog' ? 
-                '' 
-                  : 'blog'
-              )}>            +/-
+              active === 'blog' ? '' : 'blog'
+            )}>
+            +/-
           </button>
         </div>
-
-        
-        
-
-
       </div>
-  
     </div>
   );
 }
