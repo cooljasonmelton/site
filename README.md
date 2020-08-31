@@ -1,10 +1,16 @@
 # site
 
-### TO DO:
+
+TO DO
+about:
+project:
+- get svgs of projects
+contact:
+- 
+blog:
+- get svgs of blogs
 
 
-### NOTES:
-
-
-
-prob going to have to redo the main landing with grid
+misc:
+- change favicon to matching color
+- get svgs of pics of me

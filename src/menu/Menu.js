@@ -1,28 +1,14 @@
 import React from 'react';
 import './Menu.css';
+import jasonPic from './jason-pic.svg'
 
 const Menu = () => {
 
-    const menuItemNames = [
-        "home",
-        "projects",
-        "contact",
-        "blog"
-    ]
-
-    const renderMenuItems = () => {
-        return menuItemNames.map(name=>{
-            return(
-            <li className="menu-item">{name}</li>
-            )
-        })
-    }
-
     return (
-        <div className="Menu cfb">
-            <ul className="menu-item-container">
-                {renderMenuItems()}
-            </ul>   
+        <div className="Menu">
+            <img className="menu-img" src={jasonPic} alt="jason" />
+            <h1 className="menu-name">Jason Melton</h1>
+
         </div>
     );
 }
