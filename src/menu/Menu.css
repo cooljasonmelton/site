@@ -1,16 +1,24 @@
 .Menu{
-    width: 90%;
+    width: 67.5%;
     display: flex;
-    justify-content: space-around;
+    padding: 1em;
 }
 
 .menu-img{
     width: 5em;
     border-radius: 50%;
+    
 
 }
 
 .menu-name{
-
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    padding: 0 1em;
 }
 
+@media only screen and (max-width: 44em) {
+    .Menu{
+        width: 100%;
+        justify-content: center;
+    }
+}
