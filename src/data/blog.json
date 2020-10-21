@@ -1,0 +1,70 @@
+{
+    "blogs": [
+        {
+            "id": "001",
+            "title": "More Stuff You Can do with mailto",
+            "img": "more-stuff-you-can-do-with-mailto.png",
+            "link": "https://medium.com/weekly-webtips/more-stuff-you-can-do-with-mailto-3acda8614e6d"
+        },
+        {
+            "id": "002",
+            "title": "Simple CSS Animation Examples to Help You Figure It Out",
+            "img": "simple-css-animations-to-help-you-figure-it-out.jpeg",
+            "link": "https://medium.com/@jasonmelton_/simple-css-animations-to-help-you-figure-it-out-37bb8a447739"
+        },
+        {
+            "id": "003",
+            "title": "Algorithms: Calculating Combination in Ruby",
+            "img": "algorithms-calculating-combination-with-ruby.png",
+            "link": "https://medium.com/weekly-webtips/algorithms-calculating-combination-with-ruby-2784f6ddce4"
+        },
+        {
+            "id": "004",
+            "title": "Build This Cool Sign-In Form With React and CSS",
+            "img": "build-this-cool-sign-in-form-with-react-and-css.png",
+            "link": "https://medium.com/swlh/build-this-cool-sign-in-form-with-react-and-css-f9339d14d140"
+        },
+        {
+            "id": "005",
+            "title": "Build This Cool Password Checklist with React and CSS",
+            "img": "build-this-cool-password-checklist-with-react-and-css.png",
+            "link": "https://medium.com/@jasonmelton_/build-this-awesome-password-checklist-with-react-and-css-2b9d7e71108b"
+        },
+        {
+            "id": "006",
+            "title": "Build a Simple Loader With CSS and HTML",
+            "img": "build-a-simple-loader-with-css-and-html.png",
+            "link": "https://medium.com/swlh/build-a-simple-loader-with-css-and-html-8eaa25183246"
+        },
+        {
+            "id": "007",
+            "title": "Part 1: Build This Cool Dropdown Menu with React, React Router and CSS",
+            "img": "build-this-cool-dropdown-menu-with-react-react-router-and-css.png",
+            "link": "https://dev.to/cooljasonmelton/build-this-cool-dropdown-menu-with-react-react-router-and-css-39ln"
+        },
+        {
+            "id": "008",
+            "title": "Part 2: Build This Cool Dropdown Menu with React, React Router and CSS",
+            "img": "build-this-cool-dropdown-menu-with-react-react-router-and-css.png",
+            "link": "https://dev.to/cooljasonmelton/part-2-build-this-cool-dropdown-menu-with-react-react-router-and-css-5094"
+        },
+        {
+            "id": "009",
+            "title": "Whipping Up a Rails API Real Quick",
+            "img": "whipping-up-a-rails-api-real-quick.png",
+            "link": "https://medium.com/swlh/whipping-up-a-rails-api-real-quick-88cda155d2a4"
+        },
+        {
+            "id": "010",
+            "title": "Using Chart.js to Display Poll Data in a Cool Way",
+            "img": "using-chart-js-to-display-poll-data-in-a-cool-way.png",
+            "link": "https://medium.com/javascript-in-plain-english/using-chart-js-to-display-poll-data-in-a-cool-way-56eda587c53b"
+        },
+        {
+            "id": "011",
+            "title": "Building an Animated Counter with React and CSS",
+            "img": "building-a-cool-animated-counter-with-react-and-css.png",
+            "link": "https://medium.com/javascript-in-plain-english/attempting-to-build-a-cool-animated-counter-with-react-and-css-e37f7f2d47e4"
+        }
+    ]
+}
